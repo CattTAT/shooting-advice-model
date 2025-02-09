@@ -8,7 +8,7 @@ target_face = plt.imread('a1457853dcf807706ca2f1300d7f4fb2.png')
 fig, ax = plt.subplots(figsize=(8, 8))
 
 # Plot the target face image
-ax.imshow(target_face)
+ax.imshow(target_face, extent=[0, 48, 0, 48]) # 80 cm 6 ring target face
 
 # Initialize the data points list
 data_points = []
@@ -35,8 +35,8 @@ def on_click(event):
             # Clear the plot
             ax.clear()
             # Plot the target face image
-            ax.imshow(target_face)
-            
+            ax.imshow(target_face, extent=[0, 48, 0, 48])
+
     fig.canvas.draw()
 
 # Connect the mouse click event handler
