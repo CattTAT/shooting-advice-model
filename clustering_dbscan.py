@@ -4,18 +4,34 @@ import matplotlib.pyplot as plt
 
 # Load the data points from the CSV file
 data_points = []
-with open('data_points.csv', 'r') as f:
+archer_level = []
+with open('./data/data_collection.csv', 'r') as f:
     for line in f:
-        x, y = line.strip().split(',')
-        data_points.append((float(x), float(y)))
+        data = line.strip().split(',')
+        archer_level.append(data[0])
+        for i in range(2, len(data), 2):
+            x, y = data[i], data[i+1]
+            data_points.append((float(x), float(y)))
 
 # Convert the data points to a NumPy array
 data_arr = np.array(data_points)
 
+def get_eps_by_archer_level(archer_level):
+    if archer_level == 'novice':
+        return 8
+    elif archer_level == 'elementary':
+        return 6
+    elif archer_level == 'intermediate':
+        return 5
+    elif archer_level == 'advance':
+        return 4
+
+
 # Perform DBSCAN clustering on the data points in sets of 6
 for i in range(0, len(data_arr), 6):
     subset = data_arr[i:i+6]
-    eps = 4 # 4 cm for advanced/ intermediate archers
+    level = archer_level[int(i/6)]
+    eps = get_eps_by_archer_level(level) # Get the epsilon value based on the archer level
     min_samples = 2
     dbscan = DBSCAN(eps=eps, min_samples=min_samples)
     labels = dbscan.fit_predict(subset)
@@ -32,7 +48,7 @@ for i in range(0, len(data_arr), 6):
             print(f"Cluster {label}: {sum(labels == label)} points")
 
     # Plot the clustered data points
-    target_face = plt.imread('a1457853dcf807706ca2f1300d7f4fb2.png')
+    target_face = plt.imread('80cm_6rings_target_face.png')
 
     # Create a figure and axes
     fig, ax = plt.subplots(figsize=(8, 8))
@@ -46,7 +62,10 @@ for i in range(0, len(data_arr), 6):
         class_member_mask = (labels == label)
         xy = subset[class_member_mask]
         ax.plot(xy[:, 0], xy[:, 1], 'o', markerfacecolor=tuple(color), markeredgecolor='k', markersize=14)
-    ax.set_title(f"Clustered Data Points (eps={eps}, min_samples={min_samples})")
+    ax.set_title(f"Clustered Data Points by {level} archer (eps={eps}, min_samples={min_samples})")
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
-    plt.show()
+
+    # Save the plot
+    plt.savefig(f'clustered_data_points_{int(i/6)}.png')
+    plt.close(fig)
