@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the target face image
-target_face = plt.imread('a1457853dcf807706ca2f1300d7f4fb2.png')
+target_face = plt.imread('80cm_6rings_target_face.png')
 
 # Initialize the data points list
 arrow_recorded = 0
