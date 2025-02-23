@@ -7,7 +7,7 @@ target_face = plt.imread('80cm_6rings_target_face.png')
 # Initialize the data points list
 arrow_recorded = 0
 data = []
-ready_to_save = False
+ready_to_plot = False
 
 
 def save_data_points_to_csv(data):
@@ -20,8 +20,8 @@ def save_data_points_to_csv(data):
 def on_click(event):
     global arrow_recorded
     global data
-    global ready_to_save
-    if ready_to_save == False: return
+    global ready_to_plot
+    if ready_to_plot == False: return
     if arrow_recorded < 6:
         data.append(event.xdata)
         data.append(event.ydata)
@@ -36,9 +36,9 @@ def on_click(event):
             # Reset the data points list
             arrow_recorded = 0
             data = []
-            ready_to_save = False
+            ready_to_plot = False
             # Ask for archer info
-            save_archer_info_to_csv()
+            collect_archer_data()
             # Reopen the plot
             create_plot()
 
@@ -52,8 +52,8 @@ def create_plot():
     plt.show()
 
 # Function to ask for archer info
-def save_archer_info_to_csv():
-    global ready_to_save
+def collect_archer_data():
+    global ready_to_plot
     while True:
         archer_level = input("Enter archer level (0 novice,1 elementary,2 intermediate,3 advance, exit to stop the prog): ")
         if archer_level == '0':
@@ -88,9 +88,9 @@ def save_archer_info_to_csv():
     
     data.append(archer_level)
     data.append(archer_eye)
-    ready_to_save = True
+    ready_to_plot = True
 
 # Show the plot and wait for user input
-save_archer_info_to_csv()
+collect_archer_data()
 create_plot()
 
