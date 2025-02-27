@@ -6,7 +6,10 @@ import matplotlib.pyplot as plt
 data_points = []
 archer_level = []
 archer_eye = []
-with open('./data/data_collection.csv', 'r') as f:
+current_level = 'elementary'
+date = '0226'
+filename = './data/' + date + '/' + current_level + '_data_' + date + '.csv'
+with open(filename, 'r') as f:
     for line in f:
         data = line.strip().split(',')
         archer_level.append(data[0])
@@ -22,13 +25,13 @@ def get_eps_by_archer_level(archer_level):
     if archer_level == 'novice':
         return 8
     elif archer_level == 'elementary':
-        return 6
+        return 7
     elif archer_level == 'intermediate':
         return 5
     elif archer_level == 'advance':
         return 4
     
-def  save_data_to_csv(data):
+def save_data_to_csv(data):
     print(data)
     with open('./data/to_build_decision_tree.csv', 'a') as f:
         np.savetxt(f, [data], fmt='%s', delimiter=',')
@@ -96,14 +99,18 @@ for i in range(0, len(data_arr), 6):
         ax.plot(xy[:, 0], xy[:, 1], 'o', markerfacecolor=tuple(color), markeredgecolor='k', markersize=14)
 
         #Plot the distance vector from the reference point to the cluster center
-        ax.arrow(target_center[0],target_center[1],
-                distance_vector[label][0], distance_vector[label][1],
-                color='r', length_includes_head=True, head_width=1, head_length=0.5, linewidth=2, zorder=10, overhang=0.5)
+        if distance_vector[label] is not None:
+            ax.arrow(target_center[0],target_center[1],
+                    distance_vector[label][0], distance_vector[label][1],
+                    color='0.5', length_includes_head=True, head_width=1, head_length=0.5, linewidth=2, zorder=10, overhang=0.5)
     ax.set_title(f"Clustered Data Points by {level} archer (eps={eps}, min_samples={min_samples})")
     ax.set_xlabel("X")
     ax.set_ylabel("Y")
 
     # Save the plot
-    plt.savefig(f'clustered_data_points_{int(i/6)}.png')
+
+    filename = current_level + "_" + date + "_" + str(int(i/6))+ '.png'
+    path = './clustering_results/' + date + '_final/' + current_level + '/'
+    plt.savefig(path + filename)
     plt.close(fig)
     # plt.show()
