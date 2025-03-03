@@ -12,7 +12,7 @@ ready_to_plot = False
 
 def save_data_points_to_csv(data):
     print(data)
-    with open('./data/data_collection.csv', 'a') as f:
+    with open('./data/data_collection_0226.csv', 'a') as f:
         np.savetxt(f, [data], fmt='%s', delimiter=',')
     print("Data points saved to 'data_points.csv'.")
 
