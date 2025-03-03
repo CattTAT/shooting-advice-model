@@ -25,8 +25,8 @@ equip_feedback = [
     "Sight adjustment is not necessary"
 ]
 
-def get_form_feedback(id):
-    return form_feedback[id]
+def get_form_feedback(ids):
+    return [form_feedback[id] for id in ids]
 
-def get_equip_feedback(id):
-    return equip_feedback[id]
+def get_equip_feedback(ids):
+    return [equip_feedback[id] for id in ids]
