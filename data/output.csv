@@ -1,0 +1,24 @@
+0 "Forearm insufficient pushing power/ or release arm pulling too much",
+1 "Forearm pushing too much/ or release arm insufficient pulling power",
+2 "Anchor point or string shadow too left",
+3 "Anchor point or string shadow too right",
+4 "Arrow release motion should continue moving backwards",
+5 "Mind the head alignment and maintain the same posture",
+6 "Maintain the elbow at the line of force",
+7 "Mind the consistency between each arrows"
+
+0 "Sight adjust to the left slightly",
+1 "Sight adjust to the left moderately",
+2 "Sight adjust to the left significantly",
+3 "Sight adjust to the right slightly",
+4 "Sight adjust to the right moderately",
+5 "Sight adjust to the right significantly",
+6 "Sight adjust downward slightly",
+7 Sight adjust downward moderately",
+8 "Sight adjust downward significantly",
+9 "Sight adjust upward slightly",
+10 "Sight adjust upward moderately",
+11 "Sight adjust upward significantly",
+12 "Sight adjustment is not necessary"
+
+

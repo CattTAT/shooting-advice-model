@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the target face image
-target_face = plt.imread('80cm_6rings_target_face.png')
+target_face = plt.imread('training\80cm_6rings_target_face.png')
 
 # Initialize the data points list
 arrow_recorded = 0
@@ -12,7 +12,7 @@ ready_to_plot = False
 
 def save_data_points_to_csv(data):
     print(data)
-    with open('./data/data_collection_0226.csv', 'a') as f:
+    with open('./data/0319/data_collection_0319.csv', 'a') as f:
         np.savetxt(f, [data], fmt='%s', delimiter=',')
     print("Data points saved to 'data_points.csv'.")
 
