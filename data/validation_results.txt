@@ -1,0 +1,495 @@
+Accuracy rate: 99.59%
+
+Predictions for each test sample:
+Test sample 1: True={2, 11}, Predicted={2, 11}
+Test sample 2: True={2, 11}, Predicted={2, 11}
+Test sample 3: True={2, 11}, Predicted={2, 11}
+Test sample 4: True={2, 11}, Predicted={2, 11}
+Test sample 5: True={2, 11}, Predicted={2, 11}
+Test sample 6: True={2, 11}, Predicted={2, 11}
+Test sample 7: True={2, 11}, Predicted={2, 11}
+Test sample 8: True={2, 11}, Predicted={2, 11}
+Test sample 9: True={2, 11}, Predicted={2, 11}
+Test sample 10: True={2, 11}, Predicted={2, 11}
+Test sample 11: True={1, 11}, Predicted={1, 11}
+Test sample 12: True={1, 11}, Predicted={1, 11}
+Test sample 13: True={1, 11}, Predicted={1, 11}
+Test sample 14: True={1, 11}, Predicted={1, 11}
+Test sample 15: True={1, 11}, Predicted={1, 11}
+Test sample 16: True={1, 11}, Predicted={1, 11}
+Test sample 17: True={1, 11}, Predicted={1, 11}
+Test sample 18: True={1, 11}, Predicted={1, 11}
+Test sample 19: True={1, 11}, Predicted={1, 11}
+Test sample 20: True={1, 11}, Predicted={1, 11}
+Test sample 21: True={1, 11}, Predicted={1, 11}
+Test sample 22: True={0, 11}, Predicted={0, 11}
+Test sample 23: True={0, 11}, Predicted={0, 11}
+Test sample 24: True={0, 11}, Predicted={0, 11}
+Test sample 25: True={0, 11}, Predicted={0, 11}
+Test sample 26: True={0, 11}, Predicted={0, 11}
+Test sample 27: True={0, 11}, Predicted={0, 11}
+Test sample 28: True={0, 11}, Predicted={0, 11}
+Test sample 29: True={0, 11}, Predicted={0, 11}
+Test sample 30: True={11}, Predicted={11}
+Test sample 31: True={11}, Predicted={11}
+Test sample 32: True={11}, Predicted={11}
+Test sample 33: True={11}, Predicted={11}
+Test sample 34: True={11}, Predicted={11}
+Test sample 35: True={11}, Predicted={11}
+Test sample 36: True={11}, Predicted={11}
+Test sample 37: True={11}, Predicted={11}
+Test sample 38: True={11}, Predicted={11}
+Test sample 39: True={11}, Predicted={11}
+Test sample 40: True={11}, Predicted={11}
+Test sample 41: True={11}, Predicted={11}
+Test sample 42: True={11}, Predicted={11}
+Test sample 43: True={11}, Predicted={11}
+Test sample 44: True={11, 3}, Predicted={11, 3}
+Test sample 45: True={11, 3}, Predicted={11, 3}
+Test sample 46: True={11, 3}, Predicted={11, 3}
+Test sample 47: True={11, 3}, Predicted={11, 3}
+Test sample 48: True={11, 3}, Predicted={11, 3}
+Test sample 49: True={11, 3}, Predicted={11, 3}
+Test sample 50: True={11, 3}, Predicted={11, 3}
+Test sample 51: True={11, 3}, Predicted={11, 3}
+Test sample 52: True={11, 3}, Predicted={11, 3}
+Test sample 53: True={11, 4}, Predicted={11, 4}
+Test sample 54: True={11, 4}, Predicted={11, 4}
+Test sample 55: True={11, 4}, Predicted={11, 4}
+Test sample 56: True={11, 4}, Predicted={11, 4}
+Test sample 57: True={11, 4}, Predicted={11, 4}
+Test sample 58: True={11, 4}, Predicted={11, 4}
+Test sample 59: True={11, 4}, Predicted={11, 4}
+Test sample 60: True={11, 4}, Predicted={11, 4}
+Test sample 61: True={11, 4}, Predicted={11, 4}
+Test sample 62: True={11, 4}, Predicted={11, 4}
+Test sample 63: True={11, 4}, Predicted={11, 4}
+Test sample 64: True={11, 4}, Predicted={11, 4}
+Test sample 65: True={11, 4}, Predicted={11, 4}
+Test sample 66: True={11, 5}, Predicted={11, 5}
+Test sample 67: True={11, 5}, Predicted={11, 5}
+Test sample 68: True={11, 5}, Predicted={11, 5}
+Test sample 69: True={11, 5}, Predicted={11, 5}
+Test sample 70: True={11, 5}, Predicted={11, 5}
+Test sample 71: True={11, 5}, Predicted={11, 5}
+Test sample 72: True={11, 5}, Predicted={11, 5}
+Test sample 73: True={11, 5}, Predicted={11, 5}
+Test sample 74: True={11, 5}, Predicted={11, 5}
+Test sample 75: True={11, 5}, Predicted={11, 5}
+Test sample 76: True={11, 5}, Predicted={11, 5}
+Test sample 77: True={11, 5}, Predicted={11, 5}
+Test sample 78: True={11, 5}, Predicted={11, 5}
+Test sample 79: True={10, 5}, Predicted={10, 5}
+Test sample 80: True={10, 5}, Predicted={10, 5}
+Test sample 81: True={10, 5}, Predicted={10, 5}
+Test sample 82: True={10, 5}, Predicted={10, 5}
+Test sample 83: True={10, 5}, Predicted={10, 5}
+Test sample 84: True={10, 5}, Predicted={10, 5}
+Test sample 85: True={10, 5}, Predicted={10, 5}
+Test sample 86: True={10, 5}, Predicted={10, 5}
+Test sample 87: True={10, 5}, Predicted={10, 5}
+Test sample 88: True={10, 5}, Predicted={10, 5}
+Test sample 89: True={10, 5}, Predicted={10, 5}
+Test sample 90: True={10, 5}, Predicted={10, 5}
+Test sample 91: True={10, 5}, Predicted={10, 5}
+Test sample 92: True={10, 4}, Predicted={10, 4}
+Test sample 93: True={10, 4}, Predicted={10, 4}
+Test sample 94: True={10, 4}, Predicted={10, 4}
+Test sample 95: True={10, 4}, Predicted={10, 4}
+Test sample 96: True={10, 4}, Predicted={10, 4}
+Test sample 97: True={10, 4}, Predicted={10, 4}
+Test sample 98: True={10, 4}, Predicted={10, 4}
+Test sample 99: True={10, 4}, Predicted={10, 4}
+Test sample 100: True={10, 4}, Predicted={10, 4}
+Test sample 101: True={10, 4}, Predicted={10, 4}
+Test sample 102: True={10, 4}, Predicted={10, 4}
+Test sample 103: True={10, 4}, Predicted={10, 4}
+Test sample 104: True={10, 3}, Predicted={10, 3}
+Test sample 105: True={10, 3}, Predicted={10, 3}
+Test sample 106: True={10, 3}, Predicted={10, 3}
+Test sample 107: True={10, 3}, Predicted={10, 3}
+Test sample 108: True={10, 3}, Predicted={10, 3}
+Test sample 109: True={10, 3}, Predicted={10, 3}
+Test sample 110: True={10}, Predicted={10}
+Test sample 111: True={10}, Predicted={10}
+Test sample 112: True={10}, Predicted={10}
+Test sample 113: True={10}, Predicted={10}
+Test sample 114: True={10}, Predicted={10}
+Test sample 115: True={10}, Predicted={10}
+Test sample 116: True={10}, Predicted={10}
+Test sample 117: True={10}, Predicted={10}
+Test sample 118: True={10}, Predicted={10}
+Test sample 119: True={10}, Predicted={10}
+Test sample 120: True={10}, Predicted={10}
+Test sample 121: True={10}, Predicted={10}
+Test sample 122: True={0, 10}, Predicted={0, 10}
+Test sample 123: True={0, 10}, Predicted={0, 10}
+Test sample 124: True={0, 10}, Predicted={0, 10}
+Test sample 125: True={0, 10}, Predicted={0, 10}
+Test sample 126: True={0, 10}, Predicted={0, 10}
+Test sample 127: True={0, 10}, Predicted={0, 10}
+Test sample 128: True={0, 10}, Predicted={0, 10}
+Test sample 129: True={0, 10}, Predicted={0, 10}
+Test sample 130: True={1, 10}, Predicted={1, 10}
+Test sample 131: True={1, 10}, Predicted={1, 10}
+Test sample 132: True={1, 10}, Predicted={1, 10}
+Test sample 133: True={1, 10}, Predicted={1, 10}
+Test sample 134: True={1, 10}, Predicted={1, 10}
+Test sample 135: True={1, 10}, Predicted={1, 10}
+Test sample 136: True={1, 10}, Predicted={1, 10}
+Test sample 137: True={1, 10}, Predicted={1, 10}
+Test sample 138: True={1, 10}, Predicted={1, 10}
+Test sample 139: True={1, 10}, Predicted={1, 10}
+Test sample 140: True={1, 10}, Predicted={1, 10}
+Test sample 141: True={1, 10}, Predicted={1, 10}
+Test sample 142: True={2, 10}, Predicted={2, 10}
+Test sample 143: True={2, 10}, Predicted={2, 10}
+Test sample 144: True={2, 10}, Predicted={2, 10}
+Test sample 145: True={2, 10}, Predicted={2, 10}
+Test sample 146: True={2, 10}, Predicted={2, 10}
+Test sample 147: True={2, 10}, Predicted={2, 10}
+Test sample 148: True={2, 10}, Predicted={2, 10}
+Test sample 149: True={2, 10}, Predicted={2, 10}
+Test sample 150: True={2, 10}, Predicted={2, 10}
+Test sample 151: True={2, 10}, Predicted={2, 10}
+Test sample 152: True={2, 10}, Predicted={2, 10}
+Test sample 153: True={2, 10}, Predicted={2, 10}
+Test sample 154: True={2, 10}, Predicted={2, 10}
+Test sample 155: True={9, 2}, Predicted={9, 2}
+Test sample 156: True={9, 2}, Predicted={9, 2}
+Test sample 157: True={9, 2}, Predicted={9, 2}
+Test sample 158: True={9, 2}, Predicted={9, 2}
+Test sample 159: True={9, 2}, Predicted={9, 2}
+Test sample 160: True={9, 2}, Predicted={9, 2}
+Test sample 161: True={9, 2}, Predicted={9, 2}
+Test sample 162: True={1, 9}, Predicted={1, 9}
+Test sample 163: True={1, 9}, Predicted={1, 9}
+Test sample 164: True={1, 9}, Predicted={1, 9}
+Test sample 165: True={1, 9}, Predicted={1, 9}
+Test sample 166: True={1, 9}, Predicted={1, 9}
+Test sample 167: True={1, 9}, Predicted={1, 9}
+Test sample 168: True={1, 9}, Predicted={1, 9}
+Test sample 169: True={0, 9}, Predicted={0, 9}
+Test sample 170: True={0, 9}, Predicted={0, 9}
+Test sample 171: True={0, 9}, Predicted={0, 9}
+Test sample 172: True={0, 9}, Predicted={0, 9}
+Test sample 173: True={0, 9}, Predicted={0, 9}
+Test sample 174: True={9}, Predicted={9}
+Test sample 175: True={9}, Predicted={9}
+Test sample 176: True={9}, Predicted={9}
+Test sample 177: True={9}, Predicted={9}
+Test sample 178: True={9}, Predicted={9}
+Test sample 179: True={9}, Predicted={9}
+Test sample 180: True={9}, Predicted={9}
+Test sample 181: True={9}, Predicted={9}
+Test sample 182: True={9, 3}, Predicted={9, 3}
+Test sample 183: True={9, 3}, Predicted={9, 3}
+Test sample 184: True={9, 3}, Predicted={9, 3}
+Test sample 185: True={9, 3}, Predicted={9, 3}
+Test sample 186: True={9, 3}, Predicted={9, 3}
+Test sample 187: True={9, 4}, Predicted={9, 4}
+Test sample 188: True={9, 4}, Predicted={9, 4}
+Test sample 189: True={9, 4}, Predicted={9, 4}
+Test sample 190: True={9, 4}, Predicted={9, 4}
+Test sample 191: True={9, 4}, Predicted={9, 4}
+Test sample 192: True={9, 4}, Predicted={9, 4}
+Test sample 193: True={9, 4}, Predicted={9, 4}
+Test sample 194: True={9, 4}, Predicted={9, 4}
+Test sample 195: True={9, 5}, Predicted={9, 5}
+Test sample 196: True={9, 5}, Predicted={9, 5}
+Test sample 197: True={9, 5}, Predicted={9, 5}
+Test sample 198: True={9, 5}, Predicted={9, 5}
+Test sample 199: True={9, 5}, Predicted={9, 5}
+Test sample 200: True={9, 5}, Predicted={9, 5}
+Test sample 201: True={9, 5}, Predicted={9, 5}
+Test sample 202: True={9, 5}, Predicted={9, 5}
+Test sample 203: True={5}, Predicted={5}
+Test sample 204: True={5}, Predicted={5}
+Test sample 205: True={5}, Predicted={5}
+Test sample 206: True={5}, Predicted={5}
+Test sample 207: True={5}, Predicted={5}
+Test sample 208: True={5}, Predicted={5}
+Test sample 209: True={5}, Predicted={5}
+Test sample 210: True={5}, Predicted={5}
+Test sample 211: True={5}, Predicted={5}
+Test sample 212: True={5}, Predicted={5}
+Test sample 213: True={5}, Predicted={5}
+Test sample 214: True={5}, Predicted={5}
+Test sample 215: True={4}, Predicted={4}
+Test sample 216: True={4}, Predicted={4}
+Test sample 217: True={4}, Predicted={4}
+Test sample 218: True={4}, Predicted={4}
+Test sample 219: True={4}, Predicted={4}
+Test sample 220: True={4}, Predicted={4}
+Test sample 221: True={4}, Predicted={4}
+Test sample 222: True={4}, Predicted={4}
+Test sample 223: True={4}, Predicted={4}
+Test sample 224: True={4}, Predicted={4}
+Test sample 225: True={4}, Predicted={4}
+Test sample 226: True={4}, Predicted={4}
+Test sample 227: True={3}, Predicted={3}
+Test sample 228: True={3}, Predicted={3}
+Test sample 229: True={3}, Predicted={3}
+Test sample 230: True={3}, Predicted={3}
+Test sample 231: True={3}, Predicted={3}
+Test sample 232: True={3}, Predicted={3}
+Test sample 233: True={3}, Predicted={3}
+Test sample 234: True={3}, Predicted={3}
+Test sample 235: True={12}, Predicted={12}
+Test sample 236: True={12}, Predicted={12}
+Test sample 237: True={12}, Predicted={12}
+Test sample 238: True={12}, Predicted={12}
+Test sample 239: True={12}, Predicted={12}
+Test sample 240: True={12}, Predicted={12}
+Test sample 241: True={12}, Predicted={12}
+Test sample 242: True={12}, Predicted={12}
+Test sample 243: True={12}, Predicted={12}
+Test sample 244: True={12}, Predicted={12}
+Test sample 245: True={12}, Predicted={12}
+Test sample 246: True={12}, Predicted={12}
+Test sample 247: True={0}, Predicted={0}
+Test sample 248: True={0}, Predicted={0}
+Test sample 249: True={0}, Predicted={0}
+Test sample 250: True={0}, Predicted={0}
+Test sample 251: True={0}, Predicted={0}
+Test sample 252: True={0}, Predicted={0}
+Test sample 253: True={0}, Predicted={0}
+Test sample 254: True={1}, Predicted={1}
+Test sample 255: True={1}, Predicted={1}
+Test sample 256: True={1}, Predicted={1}
+Test sample 257: True={1}, Predicted={1}
+Test sample 258: True={1}, Predicted={1}
+Test sample 259: True={1}, Predicted={1}
+Test sample 260: True={1}, Predicted={1}
+Test sample 261: True={1}, Predicted={1}
+Test sample 262: True={1}, Predicted={1}
+Test sample 263: True={1}, Predicted={1}
+Test sample 264: True={1}, Predicted={1}
+Test sample 265: True={1}, Predicted={1}
+Test sample 266: True={2}, Predicted={2}
+Test sample 267: True={2}, Predicted={2}
+Test sample 268: True={2}, Predicted={2}
+Test sample 269: True={2}, Predicted={2}
+Test sample 270: True={2}, Predicted={2}
+Test sample 271: True={2}, Predicted={2}
+Test sample 272: True={2}, Predicted={2}
+Test sample 273: True={2}, Predicted={2}
+Test sample 274: True={2}, Predicted={2}
+Test sample 275: True={2}, Predicted={2}
+Test sample 276: True={2}, Predicted={2}
+Test sample 277: True={2, 6}, Predicted={2, 6}
+Test sample 278: True={2, 6}, Predicted={2, 6}
+Test sample 279: True={2, 6}, Predicted={2, 6}
+Test sample 280: True={2, 6}, Predicted={2, 6}
+Test sample 281: True={2, 6}, Predicted={2, 6}
+Test sample 282: True={2, 6}, Predicted={2, 6}
+Test sample 283: True={2, 6}, Predicted={2, 6}
+Test sample 284: True={1, 6}, Predicted={1, 6}
+Test sample 285: True={1, 6}, Predicted={1, 6}
+Test sample 286: True={1, 6}, Predicted={1, 6}
+Test sample 287: True={1, 6}, Predicted={1, 6}
+Test sample 288: True={1, 6}, Predicted={1, 6}
+Test sample 289: True={1, 6}, Predicted={1, 6}
+Test sample 290: True={1, 6}, Predicted={1, 6}
+Test sample 291: True={0, 6}, Predicted={0, 6}
+Test sample 292: True={0, 6}, Predicted={0, 6}
+Test sample 293: True={0, 6}, Predicted={0, 6}
+Test sample 294: True={0, 6}, Predicted={0, 6}
+Test sample 295: True={0, 6}, Predicted={0, 6}
+Test sample 296: True={6}, Predicted={6}
+Test sample 297: True={6}, Predicted={6}
+Test sample 298: True={6}, Predicted={6}
+Test sample 299: True={6}, Predicted={6}
+Test sample 300: True={6}, Predicted={6}
+Test sample 301: True={6}, Predicted={6}
+Test sample 302: True={6}, Predicted={6}
+Test sample 303: True={6}, Predicted={6}
+Test sample 304: True={3, 6}, Predicted={3, 6}
+Test sample 305: True={3, 6}, Predicted={3, 6}
+Test sample 306: True={3, 6}, Predicted={3, 6}
+Test sample 307: True={3, 6}, Predicted={3, 6}
+Test sample 308: True={3, 6}, Predicted={3, 6}
+Test sample 309: True={4, 6}, Predicted={4, 6}
+Test sample 310: True={4, 6}, Predicted={4, 6}
+Test sample 311: True={4, 6}, Predicted={4, 6}
+Test sample 312: True={4, 6}, Predicted={4, 6}
+Test sample 313: True={4, 6}, Predicted={4, 6}
+Test sample 314: True={4, 6}, Predicted={4, 6}
+Test sample 315: True={4, 6}, Predicted={4, 6}
+Test sample 316: True={5, 6}, Predicted={5, 6}
+Test sample 317: True={5, 6}, Predicted={5, 6}
+Test sample 318: True={5, 6}, Predicted={5, 6}
+Test sample 319: True={5, 6}, Predicted={5, 6}
+Test sample 320: True={5, 6}, Predicted={5, 6}
+Test sample 321: True={5, 6}, Predicted={5, 6}
+Test sample 322: True={5, 6}, Predicted={5, 6}
+Test sample 323: True={5, 7}, Predicted={5, 7}
+Test sample 324: True={5, 7}, Predicted={5, 7}
+Test sample 325: True={5, 7}, Predicted={5, 7}
+Test sample 326: True={5, 7}, Predicted={5, 7}
+Test sample 327: True={5, 7}, Predicted={5, 7}
+Test sample 328: True={5, 7}, Predicted={5, 7}
+Test sample 329: True={5, 7}, Predicted={5, 7}
+Test sample 330: True={5, 7}, Predicted={5, 7}
+Test sample 331: True={5, 7}, Predicted={5, 7}
+Test sample 332: True={5, 7}, Predicted={5, 7}
+Test sample 333: True={5, 7}, Predicted={5, 7}
+Test sample 334: True={4, 7}, Predicted={4, 7}
+Test sample 335: True={4, 7}, Predicted={4, 7}
+Test sample 336: True={4, 7}, Predicted={4, 7}
+Test sample 337: True={4, 7}, Predicted={4, 7}
+Test sample 338: True={4, 7}, Predicted={4, 7}
+Test sample 339: True={4, 7}, Predicted={4, 7}
+Test sample 340: True={4, 7}, Predicted={4, 7}
+Test sample 341: True={4, 7}, Predicted={4, 7}
+Test sample 342: True={4, 7}, Predicted={4, 7}
+Test sample 343: True={4, 7}, Predicted={4, 7}
+Test sample 344: True={4, 7}, Predicted={4, 7}
+Test sample 345: True={4, 7}, Predicted={4, 7}
+Test sample 346: True={4, 7}, Predicted={4, 7}
+Test sample 347: True={3, 7}, Predicted={3, 7}
+Test sample 348: True={3, 7}, Predicted={3, 7}
+Test sample 349: True={3, 7}, Predicted={3, 7}
+Test sample 350: True={3, 7}, Predicted={3, 7}
+Test sample 351: True={3, 7}, Predicted={3, 7}
+Test sample 352: True={3, 7}, Predicted={3, 7}
+Test sample 353: True={3, 7}, Predicted={3, 7}
+Test sample 354: True={7}, Predicted={7}
+Test sample 355: True={7}, Predicted={7}
+Test sample 356: True={7}, Predicted={7}
+Test sample 357: True={7}, Predicted={7}
+Test sample 358: True={7}, Predicted={7}
+Test sample 359: True={7}, Predicted={7}
+Test sample 360: True={7}, Predicted={7}
+Test sample 361: True={7}, Predicted={7}
+Test sample 362: True={7}, Predicted={7}
+Test sample 363: True={7}, Predicted={7}
+Test sample 364: True={7}, Predicted={7}
+Test sample 365: True={7}, Predicted={7}
+Test sample 366: True={7}, Predicted={7}
+Test sample 367: True={0, 7}, Predicted={0, 7}
+Test sample 368: True={0, 7}, Predicted={0, 7}
+Test sample 369: True={0, 7}, Predicted={0, 7}
+Test sample 370: True={0, 7}, Predicted={0, 7}
+Test sample 371: True={0, 7}, Predicted={0, 7}
+Test sample 372: True={0, 7}, Predicted={0, 7}
+Test sample 373: True={0, 7}, Predicted={0, 7}
+Test sample 374: True={1, 7}, Predicted={1, 7}
+Test sample 375: True={1, 7}, Predicted={1, 7}
+Test sample 376: True={1, 7}, Predicted={1, 7}
+Test sample 377: True={1, 7}, Predicted={1, 7}
+Test sample 378: True={1, 7}, Predicted={1, 7}
+Test sample 379: True={1, 7}, Predicted={1, 7}
+Test sample 380: True={1, 7}, Predicted={1, 7}
+Test sample 381: True={1, 7}, Predicted={1, 7}
+Test sample 382: True={1, 7}, Predicted={1, 7}
+Test sample 383: True={1, 7}, Predicted={1, 7}
+Test sample 384: True={1, 7}, Predicted={1, 7}
+Test sample 385: True={1, 7}, Predicted={1, 7}
+Test sample 386: True={1, 7}, Predicted={1, 7}
+Test sample 387: True={2, 7}, Predicted={2, 7}
+Test sample 388: True={2, 7}, Predicted={2, 7}
+Test sample 389: True={2, 7}, Predicted={2, 7}
+Test sample 390: True={2, 7}, Predicted={2, 7}
+Test sample 391: True={2, 7}, Predicted={2, 7}
+Test sample 392: True={2, 7}, Predicted={2, 7}
+Test sample 393: True={2, 7}, Predicted={2, 7}
+Test sample 394: True={2, 7}, Predicted={2, 7}
+Test sample 395: True={2, 7}, Predicted={2, 7}
+Test sample 396: True={2, 7}, Predicted={2, 7}
+Test sample 397: True={2, 7}, Predicted={2, 7}
+Test sample 398: True={2, 7}, Predicted={2, 7}
+Test sample 399: True={2, 7}, Predicted={2, 7}
+Test sample 400: True={2, 7}, Predicted={2, 7}
+Test sample 401: True={8, 2}, Predicted={8, 2}
+Test sample 402: True={8, 2}, Predicted={8, 2}
+Test sample 403: True={8, 2}, Predicted={8, 2}
+Test sample 404: True={8, 2}, Predicted={8, 2}
+Test sample 405: True={8, 2}, Predicted={8, 1}
+Test sample 406: True={8, 2}, Predicted={8, 2}
+Test sample 407: True={8, 2}, Predicted={8, 2}
+Test sample 408: True={8, 2}, Predicted={8, 2}
+Test sample 409: True={8, 2}, Predicted={8, 2}
+Test sample 410: True={8, 2}, Predicted={8, 2}
+Test sample 411: True={8, 2}, Predicted={8, 2}
+Test sample 412: True={8, 2}, Predicted={8, 2}
+Test sample 413: True={8, 1}, Predicted={8, 1}
+Test sample 414: True={8, 1}, Predicted={8, 1}
+Test sample 415: True={8, 1}, Predicted={8, 1}
+Test sample 416: True={8, 1}, Predicted={8, 1}
+Test sample 417: True={8, 1}, Predicted={8, 1}
+Test sample 418: True={8, 1}, Predicted={8, 1}
+Test sample 419: True={8, 1}, Predicted={8, 1}
+Test sample 420: True={8, 1}, Predicted={8, 1}
+Test sample 421: True={8, 1}, Predicted={8, 1}
+Test sample 422: True={8, 1}, Predicted={8, 1}
+Test sample 423: True={8, 1}, Predicted={8, 1}
+Test sample 424: True={8, 1}, Predicted={8, 1}
+Test sample 425: True={0, 8}, Predicted={0, 8}
+Test sample 426: True={0, 8}, Predicted={0, 8}
+Test sample 427: True={0, 8}, Predicted={0, 8}
+Test sample 428: True={0, 8}, Predicted={0, 8}
+Test sample 429: True={0, 8}, Predicted={0, 8}
+Test sample 430: True={0, 8}, Predicted={0, 8}
+Test sample 431: True={0, 8}, Predicted={0, 8}
+Test sample 432: True={8}, Predicted={8}
+Test sample 433: True={8}, Predicted={8}
+Test sample 434: True={8}, Predicted={8}
+Test sample 435: True={8}, Predicted={8}
+Test sample 436: True={8}, Predicted={8}
+Test sample 437: True={8}, Predicted={8}
+Test sample 438: True={8}, Predicted={8}
+Test sample 439: True={8}, Predicted={8}
+Test sample 440: True={8}, Predicted={8}
+Test sample 441: True={8}, Predicted={8}
+Test sample 442: True={8}, Predicted={8}
+Test sample 443: True={8}, Predicted={8}
+Test sample 444: True={8, 3}, Predicted={8, 3}
+Test sample 445: True={8, 3}, Predicted={8, 3}
+Test sample 446: True={8, 3}, Predicted={8, 3}
+Test sample 447: True={8, 3}, Predicted={8, 3}
+Test sample 448: True={8, 3}, Predicted={8, 3}
+Test sample 449: True={8, 3}, Predicted={8, 3}
+Test sample 450: True={8, 3}, Predicted={8, 3}
+Test sample 451: True={8, 4}, Predicted={8, 4}
+Test sample 452: True={8, 4}, Predicted={8, 4}
+Test sample 453: True={8, 4}, Predicted={8, 4}
+Test sample 454: True={8, 4}, Predicted={8, 4}
+Test sample 455: True={8, 4}, Predicted={8, 4}
+Test sample 456: True={8, 4}, Predicted={8, 4}
+Test sample 457: True={8, 4}, Predicted={8, 4}
+Test sample 458: True={8, 4}, Predicted={8, 4}
+Test sample 459: True={8, 4}, Predicted={8, 4}
+Test sample 460: True={8, 4}, Predicted={8, 4}
+Test sample 461: True={8, 4}, Predicted={8, 4}
+Test sample 462: True={8, 4}, Predicted={8, 4}
+Test sample 463: True={8, 5}, Predicted={8, 5}
+Test sample 464: True={8, 5}, Predicted={8, 5}
+Test sample 465: True={8, 5}, Predicted={8, 5}
+Test sample 466: True={8, 5}, Predicted={8, 5}
+Test sample 467: True={8, 5}, Predicted={8, 5}
+Test sample 468: True={8, 5}, Predicted={8, 5}
+Test sample 469: True={8, 5}, Predicted={8, 5}
+Test sample 470: True={8, 5}, Predicted={8, 5}
+Test sample 471: True={8, 5}, Predicted={8, 5}
+Test sample 472: True={8, 5}, Predicted={8, 5}
+Test sample 473: True={8, 5}, Predicted={8, 5}
+Test sample 474: True={8, 5}, Predicted={8, 5}
+Test sample 475: True={12}, Predicted={12}
+Test sample 476: True={12}, Predicted={12}
+Test sample 477: True={12}, Predicted={12}
+Test sample 478: True={12}, Predicted={12}
+Test sample 479: True={12}, Predicted={7}
+Test sample 480: True={12}, Predicted={12}
+Test sample 481: True={12}, Predicted={12}
+Test sample 482: True={12}, Predicted={12}
+Test sample 483: True={12}, Predicted={12}
+Test sample 484: True={12}, Predicted={12}
+Test sample 485: True={12}, Predicted={12}
+Test sample 486: True={12}, Predicted={12}
+Test sample 487: True={12}, Predicted={12}
+Test sample 488: True={12}, Predicted={12}
+Test sample 489: True={12}, Predicted={12}
+Test sample 490: True={12}, Predicted={12}
+Test sample 491: True={12}, Predicted={12}
+Test sample 492: True={12}, Predicted={12}

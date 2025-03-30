@@ -51,5 +51,15 @@ def run(archer_level, archer_eye, arrow_locations):
                 print(f"Cluster {label}: {sum(labels == label)} points")
 
         # Save the clustering results to a CSV file
-        output = dbscan_ouput.dbscan_output(level, eye, num_clusters, grouping_size[0], result_center[0] ,grouping_size[1], result_center[1],grouping_size[2], result_center[2])
+        flattened_center = []
+        for center in result_center:
+            if center is not None:
+                flattened_center.append(center[0])
+                flattened_center.append(center[1])
+            else:
+                flattened_center.append(None)
+                flattened_center.append(None)
+        
+        output = [level, eye, num_clusters, flattened_center[0],flattened_center[1],  flattened_center[2],flattened_center[3],  flattened_center[4], flattened_center[5]]
+        print("DBSCAN output:", output)
         return output

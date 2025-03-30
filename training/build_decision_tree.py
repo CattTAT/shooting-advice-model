@@ -13,7 +13,7 @@ if os.path.exists('decision_tree_model.pkl'):
         mlb = pickle.load(file)
 else:
     # Load the CSV file into a DataFrame
-    input_file = './data/train_equip_decision_tree.csv'
+    input_file = './data/train_equip_decision_tree_modified.csv'
     df = pd.read_csv(input_file)
 
     # Split the data into features and target
@@ -76,5 +76,5 @@ new_data = {
 #         new_data[key] = 0
 
 # Predict the output for the new data
-predicted_output = predict_new_data(new_data)
-print(f"Predicted output for the new data: {predicted_output}")
+# predicted_output = predict_new_data(new_data)
+# print(f"Predicted output for the new data: {predicted_output}")
