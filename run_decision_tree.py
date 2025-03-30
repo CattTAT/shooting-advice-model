@@ -14,12 +14,12 @@ def run(data):
 
     new_equip_data = {
         'GroupingNum': [equip_data[0]],  # GroupingNum
-        'Grouping1 to center_x': [equip_data[2]],
-        'Grouping1 to center_y': [equip_data[3]],
-        'Grouping2 to center_x': [equip_data[5]],
-        'Grouping2 to center_y': [equip_data[6]],
-        'Grouping3 to center_x': [equip_data[8]],  # Grouping3 to center_x
-        'Grouping3 to center_y': [equip_data[9]]  # Grouping3 to center_y
+        'Grouping1 to center_x': [equip_data[1]],
+        'Grouping1 to center_y': [equip_data[2]],
+        'Grouping2 to center_x': [equip_data[3]],
+        'Grouping2 to center_y': [equip_data[4]],
+        'Grouping3 to center_x': [equip_data[5]],  # Grouping3 to center_x
+        'Grouping3 to center_y': [equip_data[6]]  # Grouping3 to center_y
     }
     print("To feed decision tree:", new_equip_data)
 
