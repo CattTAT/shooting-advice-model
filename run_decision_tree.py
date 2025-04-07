@@ -6,7 +6,6 @@ import pickle
 
 def run(data):
 
-    archer_level = data[0]
     archer_eye = data[1]
     equip_data = []
     for i in range(2, len(data)):
@@ -34,9 +33,30 @@ def run(data):
     equip_prediction_labels = mlb.inverse_transform(equip_prediction)
 
     equip_prediction_array = [item for pred in equip_prediction_labels for item in pred]
+    form_predictions = []
+
+
+    if equip_data[0] != 1:
+        form_predictions = [7]
+    elif equip_data[0] == 1:
+        if equip_prediction_array.count(0) > 0 or equip_prediction_array.count(1) > 0 or equip_prediction_array.count(2) > 0:
+            if archer_eye == 'right':
+                form_predictions.extend([1, 3, 4])  # Use extend to add multiple elements
+            elif archer_eye == 'left':
+                form_predictions.extend([0, 2])  # Use extend to add multiple elements
+
+        if equip_prediction_array.count(3) > 0 or equip_prediction_array.count(4) > 0 or equip_prediction_array.count(5) > 0:
+            if archer_eye == 'right':
+                form_predictions.extend([0, 2])  # Use extend to add multiple elements
+            elif archer_eye == 'left':
+                form_predictions.extend([1, 3, 4])  # Use extend to add multiple elements
+
+        if equip_prediction_array.count(6) > 0 or equip_prediction_array.count(7) > 0 or equip_prediction_array.count(8) > 0 or equip_prediction_array.count(9) > 0 or equip_prediction_array.count(10) > 0 or equip_prediction_array.count(11) > 0:
+            form_predictions.extend([5, 6])  # Use extend to add multiple elements
+            
 
     print("Equipment Decision tree results:", equip_prediction_array)
-    form_predictions = [1,2]
+    print("Form Decision tree results:", form_predictions)
 
     output = decision_tree_output.decision_tree_output(equip_prediction_array, form_predictions)
 
